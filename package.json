@@ -5,22 +5,29 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src --out-file index.js"
+    "build": "rollup -c"
   },
   "keywords": [],
+  "module": "dist/index.esm.js",
+  "files": ["dist"],
   "author": "Sanket Behera",
   "license": "ISC",
   "dependencies": {
     "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.8",
-    "@babel/preset-env": "^7.16.11",
-    "@babel/preset-react": "^7.16.7"
+    "@babel/runtime": "^7.17.8",
+    "rollup-plugin-filesize": "^9.1.2"
   },
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@rollup/plugin-babel": "^5.3.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sanketbehera/react-module.git"
