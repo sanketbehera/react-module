@@ -1,6 +1,6 @@
 {
   "name": "test-react-addverb",
-  "version": "1.0.10",
+  "version": "1.0.2",
   "description": "react npm module",
   "main": "index.jsx",
   "scripts": {
@@ -32,9 +32,6 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
-  },
-  "bugs": {
     "url": ""
   },
   "homepage": ""
