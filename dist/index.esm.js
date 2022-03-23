@@ -12,7 +12,7 @@ var MfeButton = function MfeButton(props) {
   useEffect(function () {
     timerHandle.current = +setInterval(function () {
       setStateCounter(stateCounter + 1);
-    }, 2500);
+    }, 1000);
     return function () {
       if (timerHandle.current) {
         clearInterval(timerHandle.current);
@@ -29,7 +29,7 @@ var MfeButton = function MfeButton(props) {
     }
   };
 
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", null, "Props counter: ", propsCounter, /*#__PURE__*/React.createElement("button", {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", null, "Props counter: ", propsCounter, /*#__PURE__*/React.createElement("span", {
     onClick: handleClick
   }, "click to increase")), /*#__PURE__*/React.createElement("div", null, "State counter: ", stateCounter));
 };

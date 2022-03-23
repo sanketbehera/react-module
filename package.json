@@ -1,6 +1,6 @@
 {
   "name": "test-react-addverb",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "description": "react npm module",
   "main": "index.jsx",
   "scripts": {
@@ -13,7 +13,7 @@
     "dist"
   ],
   "author": "sk ismail",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.8",

@@ -14,7 +14,7 @@ import React, {
       useEffect(()=>{
         timerHandle.current = +setInterval(() => {
           setStateCounter(stateCounter + 1);
-        }, 2500);
+        }, 1000);
 
         return () => {
           if (timerHandle.current) {
@@ -34,8 +34,8 @@ import React, {
     return (
       <div>
     <div >Props counter: {propsCounter}
-      <button onClick={handleClick}
-           >click to increase</button>
+      <span onClick={handleClick}
+           >click to increase</span>
     </div>
     <div >State counter: {stateCounter}</div>
       </div>
