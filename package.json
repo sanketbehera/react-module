@@ -1,16 +1,18 @@
 {
-  "name": "test-sanket",
+  "name": "test-react-addverb",
   "version": "1.0.10",
   "description": "react npm module",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
   },
   "keywords": [],
   "module": "dist/index.esm.js",
-  "files": ["dist"],
-  "author": "Sanket Behera",
+  "files": [
+    "dist"
+  ],
+  "author": "sk ismail",
   "license": "ISC",
   "dependencies": {
     "@babel/cli": "^7.17.6",
@@ -30,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sanketbehera/react-module.git"
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/sanketbehera/react-module/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/sanketbehera/react-module#readme"
+  "homepage": ""
 }
